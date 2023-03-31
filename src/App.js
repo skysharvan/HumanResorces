@@ -1,5 +1,5 @@
 
-import './App.css';
+// import './App.css';
 import Box from '@mui/material/Box';
 import { Autocomplete, Button, styled, TextField, Typography } from '@mui/material';
 
@@ -99,7 +99,7 @@ function App() {
 
             <Box sx={{display:'flex',width:'100%'}}>
                 <Box sx={{display:'flex',flexDirection:'column',width:'100%'}}>
-                  <h3 style={{margin:'0px 70px',padding:' 10px 20px'}}>Experience</h3>
+                  <h3 style={{margin:'0px 70px',padding:' 10px 20px'}}>Experience </h3>
                   <Box sx={{width:'100%',display:'flex',justifyContent:'center',}}>
                     <TextField sx={{width:'80%'}} id="outlined-basic" label="Experience" variant="outlined" />
                   </Box>
